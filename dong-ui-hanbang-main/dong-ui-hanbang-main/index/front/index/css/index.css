@@ -1,0 +1,293 @@
+.body_main_box {
+    display: flex;
+    margin: 0 auto;
+    max-width: 980px;
+    padding-bottom: 83px;
+}
+
+.body_important_wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.body_middle_wrap {
+    display: flex;
+}
+
+.body_solutuon_box .introuduce_box {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+/*첫번째 하얀박스  */
+.body_reft_box .introuduce_box{ 
+    position: relative;
+    width: 230px;
+    height: 180px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.introuduce_box .circle {
+   
+   margin: 16px 68px 17px;
+   width: 94px;
+   height: 94px; 
+   background: #F3F3F3;
+   border-radius: 100%;
+}
+
+.introuduce_box  .group_logo{
+    position: absolute;
+    top: 33px;
+    left : 84px
+}
+
+.introuduce_box > .llst_circle {
+    position: absolute;
+    top: 36px;
+    left: 78px;
+    width: 33px;
+    height: 33px;
+    background: #CFDFE4;
+    border-radius: 100%;
+}
+
+.introuduce_box > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #494949;
+}
+
+
+/* 두 번째 하얀박스 */
+
+.introuduce_box .note_logo {
+    position: absolute;
+    top: 33px;
+    left : 95px
+}
+
+.introuduce_box > .second_llst_circle {
+    position: absolute;
+    top: 35px;
+    left: 79px;
+    width: 33px;
+    height: 33px;
+    background: #CFDFE4;
+    border-radius: 100%;
+}
+
+
+/*세 번째 박스*/
+
+.introuduce_box .sinchung_logo{
+    position: absolute;
+    top : 33px;
+    left: 79px;
+}
+
+.introuduce_box .three_llst_circle{
+    position: absolute;
+    top : 27px;
+    left: 85px;
+    width: 33px;
+    height: 33px;
+    background: #CFDFE4;
+    border-radius: 100%;
+}
+
+
+
+/*네 번째 박스*/
+
+
+.introuduce_box .middle_first_circle {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background: #CFDFE4;
+    border-radius: 100%;
+    top: 30px;
+    left: 80px;
+    
+}
+
+.introuduce_box .wheel_logo {
+    position: absolute;
+    top : 23px;
+    left : 85px
+}
+
+.body_solutuon_box .introuduce_box:first-child{
+    margin-bottom: 20px;
+}
+
+/*5 번째 박스*/
+
+.introuduce_box .check_logo{
+    position: absolute;
+    top: 33px;
+    left: 88px;
+    width: 54px;
+    height: 60px;
+}
+
+.introuduce_box .middle_last_circle{
+    position: absolute;
+    top: 29px;
+    left: 79px;
+    width: 33px;
+    height: 33px;
+    background: #CFDFE4;
+    border-radius: 100%;
+}
+
+.body_solutuon_box .pharmacy_logo_title{
+    width: 480px;
+    height: 380px;
+}
+
+/*공지사항 박스*/
+
+.body_right_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.body_notice_wrap {
+    margin-bottom: 20px;
+}
+
+.body_right_box .body_notice_wrap{
+    width: 230px;
+    height: 180px;
+    padding: 20px 13px 15px;
+    background: #006C8E;
+    border-radius: 5px;
+}
+
+.body_notice_wrap .notice_title {
+    display: flex;
+    justify-content: center;
+    padding:  0px 0px 12px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.body_notice_wrap .notice_line{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    width: 187px;
+    height: 0px;
+    opacity: 0.35;
+    border: 1px solid #E5E9EB;
+}
+
+.body_notice_wrap  span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #FFFFFF;
+}
+
+.body_notice_wrap  a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.body_notice_wrap .notic_total_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.notic_total_wrap .notice_content {
+    white-space: nowrap;
+    width:136px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*homepage_environment*/
+.homepage_environment{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body_right_box .homepage_environment{
+    width: 230px;
+    height: 380px;
+    
+    background: #006C8E;
+    border-radius: 5px;
+}
+
+
+.homepage_environment > span {
+    display: flex;
+    margin: 20px 38px 38px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+
+    border-bottom: 1px solid #E5E9EB;
+    padding-bottom: 12px;
+}
+.window_setting > p {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.homepage_environment .homepage_setting_main{
+    display:  flex;
+    margin: 0 auto;
+    margin-bottom: 9px;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 30px;
+    background: #1D8CAF;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
